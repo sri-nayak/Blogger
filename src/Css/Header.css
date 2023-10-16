@@ -1,0 +1,42 @@
+.row{
+    padding: 20px;
+    font-size: large;
+    margin-bottom: 20px ;
+}
+.header{
+    border-bottom: 1px solid black;
+}
+.searchbar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+.searchIcon{
+    margin-right: 20px;
+}
+.searchplace{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
+.searchplace input {
+    width: 100%;
+    border: none; 
+    transition: border 0.3s;
+}
+.searchplace input:focus{
+    border: none;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.socials{
+    gap: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
